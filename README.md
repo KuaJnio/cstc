@@ -1,3 +1,3 @@
-# cstc
-Cesson-Sévigné Tennis Club
-Web site created by Romain Thoma for CSTC
+
+# docker build -t cstc .
+# docker run --restart always -d -p 80:80 
