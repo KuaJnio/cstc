@@ -1,0 +1,21 @@
+$(document).ready(function(){
+    $(".section_accueil").show();
+    $(".section_club").hide();
+    $(".section_contact").hide();
+    
+    $(".tab_accueil").click(function(){
+        $(".section_accueil").fadeIn();
+        $(".section_club").hide();
+        $(".section_contact").hide();
+    });
+    $(".tab_club").click(function(){
+        $(".section_accueil").hide();
+        $(".section_club").fadeIn();
+        $(".section_contact").hide();
+    });
+    $(".tab_contact").click(function(){
+        $(".section_accueil").hide();
+        $(".section_club").hide();
+        $(".section_contact").fadeIn();
+    });
+});

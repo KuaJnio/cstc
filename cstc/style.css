@@ -1,0 +1,30 @@
+a {
+    outline: 0;
+}
+html {
+    background: url(background.jpg);
+    background-position: center;
+}
+
+.header {
+    font-size: 200%;
+}
+
+/*
+section {
+    padding: 20px;
+}
+
+* {
+    outline: none;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.section_home .container {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+*/
